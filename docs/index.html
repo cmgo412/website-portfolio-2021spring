@@ -1,31 +1,377 @@
 <!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset='UTF-8'/>
-    <meta name='viewport'
-      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
-    <title>Home</title>
-    <link rel='stylesheet' href='styles.css'/>
-  </head>
-  <body>
-    <div class='menu-container'>
-      <div class='menu'>
-        <div class='home'>
-          <a href='index.html' id='home-header'>Home</a>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/ico/cg_favicon.ico">
+
+    <title>Welcome | CG</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/plugins.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/pe-icons.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" class="index">
+
+    <div class="master-wrapper">
+
+        <nav class="navbar navbar-default navbar-fixed-top fadeInDown" data-wow-delay="0.5s">
+            <div class="top-bar smoothie hidden-xs">
+                <div class="container">
+                    <div class="clearfix">
+                        <ul class="list-inline social-links wow pull-left">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+
+                        <div class="pull-right text-right">
+                            <ul class="list-inline">
+                                <li>
+                                    <div><i class="fa fa-envelope-o"></i> caelamgo@gmail.com</div>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-paperclip"></i> Resume</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand smoothie logo logo-light" href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+                    <a class="navbar-brand smoothie logo logo-dark" href="index.html"><img src="assets/img/logo_reverse.png" alt="logo"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="main-navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="index.html" class="dropdown-toggle">Home</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="index.html" class="dropdown-toggle">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <div id="search-wrapper">
+            <button type="button" class="close">×</button>
+            <div class="vertical-center text-center">
+                <form>
+                    <input type="search" value="" placeholder="Enter Search Term" />
+                    <button type="submit" class="btn btn-primary btn-white">Search</button>
+                </form>
+            </div>
         </div>
-        <div class='about'>
-          <a href='about.html' id='about-header'>About</a>
+
+        <!-- Header -->
+        <header id="headerwrap" class="backstretched special-max-height no-overlay">
+            <div class="container vertical-center">
+                <div class="intro-text vertical-center text-center smoothie">
+                    <div class="intro-heading wow fadeIn heading-font" data-wow-delay="0.2s">Hi, I'm Caela.</div>
+                    <div class="intro-sub-heading wow fadeIn secondary-font" data-wow-delay="0.4s">I'm a <span class="rotate">student, programmer, photographer</span>.</div>
+                    <a href="#welcome" class="btn btn-primary btn-white mt30 page-scroll" data-wow-delay="0.6s">Learn More</a>
+                </div>
+            </div>
+        </header>
+
+        <section id="welcome">
+            <div class="section-inner">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 mb100 wow">
+                            <h2 class="section-heading">Learn more about me</h2>
+                            <h3 class="section-subheading secondary-font">Welcome to my personal portfolio.</h3>
+                            <img src="assets/img/profile/me.jpg" class="img-profile" alt="Profile picture">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="icon-box-1 match-height mb30">
+                                <i class="fa-4x pe-7s-notebook"></i>
+                                <div class="content-area">
+                                    <h3 class="title">School</h3>
+                                    <div class="content">I'm a sophpomore double majoring in Computer Science and Information Science with a minor in Film & Media Studies. However, as of next semester, I'm also thinking about adding a third major—Digital Narrative and Interactive Design with a concentration in Online Media. Other than academics, I'm also a member of various extracurricular organizations and clubs including Computer Science Club, Women in Computer Science Club (WiCS), Kappa Theta Pi, and Asian Student Alliance.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="icon-box-1 match-height mb30">
+                                <i class="fa-4x pe-7s-camera"></i>
+                                <div class="content-area">
+                                    <h3 class="title">Photography</h3>
+                                    <div class="content">Photography and videography are one of my biggest hobbies! In my free time, you'll find me taking pictures on campus or producing personal videos for my friends. I'm currently also the Assitant Visual Editor at The Pitt News, an independently-run and student-organized newspaper. My main gear includes the Canon 80D for digital and the Nikon FE for film, but I hope to upgrade my equipment and replace my DSLR with a mirrorless camera in the future.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="icon-box-1 match-height mb30">
+                                <i class="fa-4x pe-7s-graph1"></i>
+                                <div class="content-area">
+                                    <h3 class="title">Technology</h3>
+                                    <div class="content">I developed my interest in technology from when I was little, tinkering around with different gadgets and devices. The idea that I could bring my imagination to life with a couple of tools was fascinating to me, and ever since then, I've always wanted to learn more. During my time at Pitt so far, I've participated in numerous hackathons, done research as part of a fellowship under the Honors College, and volunteered as a mentor to high school girls as part of a program to increase women in STEM-related fields. I'm passionate about technology in general, but my particular interests are in software engineering, web development, and data science.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="section-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 mb100 wow">
+                            <h2 class="section-heading">Recent Works</h2>
+                            <h3 class="section-subheading secondary-font">A preview for some of my projects.</h3>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <ul class="portfolio-filter mb30 list-inline wow">
+                                <li><a class="btn btn-primary active" href="#" data-filter="*">All</a></li>
+                                <li><a class="btn btn-primary" href="#" data-filter=".programming">Programming</a></li>
+                                <li><a class="btn btn-primary" href="#" data-filter=".photo">Photo</a></li>
+                                <li><a class="btn btn-primary" href="#" data-filter=".video">Video</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="col-md-12">
+                        <ul class="portfolio-items nopadding-lr isotope list-unstyled">
+                            <li class="col-sm-4 col-xs-12 portfolio-item nopadding-lr photo isotope-item">
+                                <div class="hover-item">
+                                    <img src="assets/img/portfolio/portrait-leanna.jpg" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="single-portfolio-fullscreen.html" title="view project">Portrait: Leanna</a></h3>
+                                            <a href="assets/img/portfolio/portrait-leanna.jpg" title="View Gallery" class="btn btn-primary lb-link smoothie">Zoom</a>
+                                            <a href="#" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 col-xs-12 portfolio-item nopadding-lr photo isotope-item">
+                                <div class="hover-item">
+                                    <img src="assets/img/portfolio/portrait-sabine.jpg" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="single-portfolio-fullscreen.html" title="view project">Portrait: Sabine</a></h3>
+                                            <a href="assets/img/portfolio/portrait-sabine.jpg" title="View Gallery" class="btn btn-primary lb-link smoothie">Zoom</a>
+                                            <a href="#" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 col-xs-12 portfolio-item nopadding-lr photo isotope-item">
+                                <div class="hover-item">
+                                    <img src="assets/img/portfolio/portrait-alyssa.jpg" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="single-portfolio-fullscreen.html" title="view project">Portrait: Alyssa</a></h3>
+                                            <a href="assets/img/portfolio/portrait-alyssa.jpg" title="View Gallery" class="btn btn-primary lb-link smoothie">Zoom</a>
+                                            <a href="#" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 col-xs-12 portfolio-item nopadding-lr programming isotope-item">
+                                <div class="hover-item">
+                                    <img src="assets/img/portfolio/goserve.png" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="single-portfolio-fullscreen.html" title="view project">GoServe</a></h3>
+                                            <a href="assets/img/portfolio/goserve.png" title="View Gallery" class="btn btn-primary lb-link smoothie">Zoom</a>
+                                            <a href="https://devpost.com/software/goserve" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 col-xs-12 portfolio-item nopadding-lr video isotope-item">
+                                <div class="hover-item">
+                                    <img src="assets/img/portfolio/homebound.png" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="single-portfolio-fullscreen.html" title="view project">Homebound</a></h3>
+                                            <a href="assets/img/portfolio/homebound.png" title="View Gallery" class="btn btn-primary lb-link smoothie">Zoom</a>
+                                            <a href="https://vimeo.com/419047327" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 col-xs-12 portfolio-item nopadding-lr programming isotope-item">
+                                <div class="hover-item">
+                                    <img src="assets/img/portfolio/clubhub.png" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="single-portfolio-fullscreen.html" title="view project">ClubHub</a></h3>
+                                            <a href="assets/img/portfolio/clubhub.png" title="View Gallery" class="btn btn-primary lb-link smoothie">Zoom</a>
+                                            <a href="https://devpost.com/software/clubhub-is59ew" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 col-xs-12 portfolio-item nopadding-lr programming isotope-item">
+                                <div class="hover-item">
+                                    <img src="assets/img/portfolio/battleship.png" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="single-portfolio-fullscreen.html" title="view project">JS BattleShip</a></h3>
+                                            <a href="assets/img/portfolio/battleship.png" title="View Gallery" class="btn btn-primary lb-link smoothie">Zoom</a>
+                                            <a href="#" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 col-xs-12 portfolio-item nopadding-lr photo isotope-item">
+                                <div class="hover-item">
+                                    <img src="assets/img/portfolio/mt-washington.jpg" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="single-portfolio-fullscreen.html" title="view project">Mt. Washington</a></h3>
+                                            <a href="assets/img/portfolio/mt-washington.jpg" title="View Gallery" class="btn btn-primary lb-link smoothie">Zoom</a>
+                                            <a href="#" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 col-xs-12 portfolio-item nopadding-lr photo isotope-item">
+                                <div class="hover-item">
+                                    <img src="assets/img/portfolio/portrait-sophie.jpg" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="single-portfolio-fullscreen.html" title="view project">Portrait: Sophie</a></h3>
+                                            <a href="assets/img/portfolio/portrait-sophie.jpg" title="View Gallery" class="btn btn-primary lb-link smoothie">Zoom</a>
+                                            <a href="#" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="footer-wrapper" class="dark-footer-image-bg">
+            <section class="dark-wrapper">
+                <div class="section-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="widget about-us-widget">
+                                    <h4 class="widget-title"> Want to learn more?</h4>
+                                    <p>Feel free to contact me! My email is listed above (caelamgo@gmail.com) and I'm also available on various social media if you'd like to connect. I look forward to getting to know you!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Placeholder -->
+                            </div>
+                            <div class="col-md-4">
+                                <div class="widget">
+                                    <h4 class="widget-title">Navigation</h4>
+                                    <div class="tagcloud">
+                                        <a href="#" class="tag-link btn btn-theme btn-white btn-xs smoothie" title="Jump to Home">Home</a>
+                                        <a href="#welcome" class="tag-link btn btn-theme btn-white btn-xs smoothie" title="Jump to About">About</a>
+                                        <a href="#portfolio" class="tag-link btn btn-theme btn-white btn-xs smoothie" title="Jump to Porfolio">Portfolio</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="white-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-left">
+                            <ul class="list-inline social-links wow">
+                                <li>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
-        <div class='works'>
-          <a href='works.html' id='works-header'>Works</a>
-        </div>
-        <div class='photo'>
-          <a href='photo.html' id='photo-header'>Photo</a>
-        </div>
-      </div>
+
     </div>
 
-    <h2>Home</h2>
-    <script src="app.js"></script>
-  </body>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/init.js"></script>
+
+    <script type="text/javascript">
+
+    //rotate background images
+    $(document).ready(function() {
+        'use strict';
+        jQuery('#headerwrap').backstretch([
+            "assets/img/bg/pgh-cool.jpg",
+            "assets/img/bg/pgh-warm.jpg"
+        ], {
+            duration: 8000,
+            fade: 500
+        });
+    });
+    </script>
+
+</body>
+
 </html>
